@@ -1,0 +1,28 @@
+.page {
+  display: grid;
+  min-height: 100svh;
+  place-items: center;
+  padding: 24px;
+  background: #fff;
+}
+
+.uploader {
+  width: min(100%, 680px);
+}
+
+.dropzone {
+  width: 100%;
+}
+
+.processAction {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 16px;
+  }
+}
